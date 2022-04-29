@@ -1,0 +1,32 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+.shared-nav{
+    background-color: rgb(0, 177, 0);
+    text-align: center;
+}
+
+.shared-nav_item{
+    display: inline-block;
+    list-style: none;
+    margin: 0 16px;
+    padding: 16px;
+}
+.shared-nav_item a{
+    padding: 10px;
+    color: whitesmoke;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.shared-nav_item a:hover{
+    transition: linear;
+    border-bottom: 3px solid white;
+}
+.active{
+    background-color: darkgreen;
+}
+.active a{
+    border-bottom: 3px solid white;
+}
