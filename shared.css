@@ -30,3 +30,18 @@
 .active a{
     border-bottom: 3px solid white;
 }
+
+.boton{
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.boton:hover, .boton:active{
+    background-color: white;
+    color: darkgreen;
+    box-shadow: 0.25rem 0.25rem gray;
+}
