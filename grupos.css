@@ -5,11 +5,11 @@ main{
 #add-students{
     margin-top: 16px;
 }
+.add-students-dinamic{
+    margin-top: 16px;
+}
 
-.add-student_buttons{
+.create-student_buttons{
     margin: 16px 0;
 }
 
-.add-student_buttons .boton{
-    display: none;
-}

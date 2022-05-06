@@ -39,6 +39,7 @@
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
+    margin: 8px 0;
 }
 .boton:hover, .boton:active{
     background-color: white;
